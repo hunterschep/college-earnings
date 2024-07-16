@@ -6,7 +6,7 @@ st.set_page_config(layout="wide", initial_sidebar_state="expanded", page_title="
 st.title("College Earnings by Major")
 
 # Load and prepare the data
-data = pd.read_csv("data\major_level_data.csv")
+data = pd.read_csv("data/major_level_data.csv")
 earnings_columns = ['1 Year', '4 Years', '5 Years']
 
 # Sidebar filters 
